@@ -6,7 +6,7 @@ export const Navbar = () => {
 		<nav className="navbar navbar-light bg-light mb-3">
 			<div className="container-fluid">
 				<Link to="/">
-				<a class="navbar-brand " href="#"/>
+				<a className="navbar-brand " href="#"/>
 					<img src="https://1000marcas.net/wp-content/uploads/2019/12/Star-Wars-Logo-5.png" alt="" width="130" height="75"/>
 				</Link>
 				<div className="ml-auto">

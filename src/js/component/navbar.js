@@ -7,7 +7,7 @@ export const Navbar = () => {
 			<div className="container-fluid">
 				<Link to="/">
 				<a className="navbar-brand " href="#"/>
-					<img src="https://1000marcas.net/wp-content/uploads/2019/12/Star-Wars-Logo-5.png" alt="" width="130" height="75"/>
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Harry_Potter_wordmark.svg/1280px-Harry_Potter_wordmark.svg.png" alt="" width="220" height="75"/>
 				</Link>
 				<div className="ml-auto">
 					<Link to="/demo">

@@ -3,9 +3,8 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import ScrollToTop from "./component/scrollToTop";
 
 import { Home } from "./views/home";
-import { Demo } from "./views/demo";
-import { Single } from "./views/single";
 import injectContext from "./store/appContext";
+import { Gryffindor } from "./views/gryffindor";
 
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
@@ -25,12 +24,7 @@ const Layout = () => {
 						<Route exact path="/">
 							<Home />
 						</Route>
-						<Route exact path="/demo">
-							<Demo />
-						</Route>
-						<Route exact path="/single/:theid">
-							<Single />
-						</Route>
+						<Route path={"/gryffindor"} component={Gryffindor}></Route>
 						<Route>
 							<h1>Not found!</h1>
 						</Route>
